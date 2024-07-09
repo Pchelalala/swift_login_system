@@ -19,6 +19,7 @@
 		0E4A2A7E2C398F63003983B3 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4A2A7D2C398F63003983B3 /* RegisterController.swift */; };
 		0E4A2A802C398F86003983B3 /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4A2A7F2C398F86003983B3 /* ForgotPasswordController.swift */; };
 		0EEF50422C39F16300AB70EF /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEF50412C39F16300AB70EF /* AuthHeaderView.swift */; };
+		0EEF50442C3D748900AB70EF /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEF50432C3D748800AB70EF /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		0E4A2A7D2C398F63003983B3 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
 		0E4A2A7F2C398F86003983B3 /* ForgotPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
 		0EEF50412C39F16300AB70EF /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
+		0EEF50432C3D748800AB70EF /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				0EEF50412C39F16300AB70EF /* AuthHeaderView.swift */,
+				0EEF50432C3D748800AB70EF /* CustomTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				0E4A2A7E2C398F63003983B3 /* RegisterController.swift in Sources */,
 				0E4A2A802C398F86003983B3 /* ForgotPasswordController.swift in Sources */,
 				0E4A2A492C398708003983B3 /* AppDelegate.swift in Sources */,
+				0EEF50442C3D748900AB70EF /* CustomTextField.swift in Sources */,
 				0E4A2A4B2C398708003983B3 /* SceneDelegate.swift in Sources */,
 				0E4A2A7C2C398F4B003983B3 /* LoginController.swift in Sources */,
 				0EEF50422C39F16300AB70EF /* AuthHeaderView.swift in Sources */,
