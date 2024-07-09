@@ -8,22 +8,26 @@
 import UIKit
 
 class LoginController: UIViewController {
-
+    
+    // MARK: - UI Components
+    private let headerView = AuthHeaderView(title: "Sign in", subTitle: "Sign in to your account")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.setupUI()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    // MARK: - UI Setup
+    private func setupUI() {
+        self.view.backgroundColor = .systemBackground
+        self.view.addSubview(headerView)
+        headerView.translatesAutoresizingMaskIntoConstraints = false
+        
+        NSLayoutConstraint.activate([
+            self.headerView.topAnchor.constraint(equalTo: self.view.topAnchor),
+            self.headerView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor),
+            self.headerView.trailingAnchor.constraint(equalTo:self.view.trailingAnchor),
+            self.headerView.heightAnchor.constraint(equalToConstant: 270)
+        ])
     }
-    */
-
 }
