@@ -25,13 +25,15 @@ class LoginController: UIViewController {
         self.setupUI()
         
         self.signInButton.addTarget(self, action: #selector (didTapSignIn), for: .touchUpInside)
-        self.newUserButton.addTarget(self, action: #selector(didTapNewUsgr), for: .touchUpInside)
+        self.newUserButton.addTarget(self, action: #selector(didTapNewUser), for: .touchUpInside)
         self.forgotPasswordButton.addTarget(self, action: #selector(didTapForgotPassword), for: .touchUpInside)
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.navigationBar.isHidden = true
+        
+        self.didTapNewUser()
     }
     
     // MARK: - UI Setup
@@ -92,7 +94,7 @@ class LoginController: UIViewController {
         self.present(vc, animated: false, completion: nil)
     }
     
-    @objc private func didTapNewUsgr() {
+    @objc private func didTapNewUser() {
         let vc = RegisterController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
