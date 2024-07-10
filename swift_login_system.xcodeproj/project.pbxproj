@@ -21,6 +21,7 @@
 		0EEF50422C39F16300AB70EF /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEF50412C39F16300AB70EF /* AuthHeaderView.swift */; };
 		0EEF50442C3D748900AB70EF /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEF50432C3D748800AB70EF /* CustomTextField.swift */; };
 		0EEF50462C3DC8ED00AB70EF /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEF50452C3DC8ED00AB70EF /* CustomButton.swift */; };
+		0EEF50482C3E937300AB70EF /* WebViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEF50472C3E937300AB70EF /* WebViewerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		0EEF50412C39F16300AB70EF /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
 		0EEF50432C3D748800AB70EF /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		0EEF50452C3DC8ED00AB70EF /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		0EEF50472C3E937300AB70EF /* WebViewerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				0E4A2A812C398FC4003983B3 /* Views */,
 				0E4A2A782C398DCC003983B3 /* Supporting */,
 				0E4A2A562C39870A003983B3 /* Info.plist */,
+				0EEF50472C3E937300AB70EF /* WebViewerController.swift */,
 			);
 			path = swift_login_system;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				0EEF50442C3D748900AB70EF /* CustomTextField.swift in Sources */,
 				0E4A2A4B2C398708003983B3 /* SceneDelegate.swift in Sources */,
 				0E4A2A7C2C398F4B003983B3 /* LoginController.swift in Sources */,
+				0EEF50482C3E937300AB70EF /* WebViewerController.swift in Sources */,
 				0EEF50422C39F16300AB70EF /* AuthHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
