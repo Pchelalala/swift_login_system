@@ -59,5 +59,6 @@ class ForgotPasswordController: UIViewController {
     // MARK: - Selectors
     @objc private func didTapForgotPassword() {
         guard let email = self.emailField.text, !email.isEmpty else { return }
+        // TODO: - Email validation
     }
 }

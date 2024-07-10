@@ -33,7 +33,7 @@ class LoginController: UIViewController {
         super.viewWillAppear(animated)
         self.navigationController?.navigationBar.isHidden = true
         
-        self.didTapNewUser()
+        //self.didTapNewUser()
     }
     
     // MARK: - UI Setup
