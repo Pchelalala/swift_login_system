@@ -67,3 +67,15 @@ extension AlertManager {
         self.showBasicAlert(on: vc, title: "Log Out Error", message: "\(error.localizedDescription)")
     }
 }
+
+// MARK: - Forgot Password
+extension AlertManager {
+
+    public static func showPasswordResetSent(on vc: UIViewController) {
+        self.showBasicAlert(on: vc, title: "Password Reset Sent", message: nil)
+    }
+    
+    public static func showErrorSendingPasswordReset(on vc: UIViewController, with error: Error) {
+        self.showBasicAlert(on: vc, title: "Error Sending Password Reset", message: "\(error.localizedDescription)")
+    }
+}
