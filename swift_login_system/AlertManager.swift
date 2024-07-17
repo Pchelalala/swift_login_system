@@ -33,3 +33,16 @@ extension AlertManager {
         self.showBasicAlert(on: vc, title: "Invalid Username", message: "Please enter a valid username.")
     }
 }
+
+
+// MARK: - Registration Errors
+extension AlertManager {
+    
+    public static func showRegistrationErrorAlert(on vc: UIViewController) {
+        self.showBasicAlert(on: vc, title: "Unknown Registration Error", message: nil)
+    }
+    
+    public static func showRegistrationErrorAlert(on vc: UIViewController, with error: Error) {
+        self.showBasicAlert(on: vc, title: "Unknown Registration Error", message: "\(error.localizedDescription)")
+    }
+}
