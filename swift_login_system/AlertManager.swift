@@ -46,3 +46,24 @@ extension AlertManager {
         self.showBasicAlert(on: vc, title: "Unknown Registration Error", message: "\(error.localizedDescription)")
     }
 }
+
+// MARK: - Log In Errors
+extension AlertManager {
+    
+    public static func showSignInErrorAlert(on vc: UIViewController) {
+        self.showBasicAlert(on: vc, title: "Unknown Error Signing In", message: nil)
+    }
+    
+    public static func showSignInErrorAlert(on vc: UIViewController, with error: Error) {
+        self.showBasicAlert(on: vc, title: "Error Signing In", message: "\(error.localizedDescription)")
+    }
+}
+
+
+// MARK: - Logout Errors
+extension AlertManager {
+    
+    public static func showLogoutError(on vc: UIViewController, with error: Error) {
+        self.showBasicAlert(on: vc, title: "Log Out Error", message: "\(error.localizedDescription)")
+    }
+}
