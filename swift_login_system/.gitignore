@@ -1,0 +1,18 @@
+# Swift
+*.xcodeproj/project.xcworkspace/
+*.xcuserdatad/
+*.xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.DS_Store
+*.swp
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Firebase configuration file
+GoogleService-Info.plist
+
+# Environment variables file
+.env
